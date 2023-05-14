@@ -30,15 +30,15 @@ function plus() {
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function subtract() {
-  stringNums -= '-';
+  stringNums += '-';
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function multiply() {
-  stringNums *= '*';
+  stringNums += '*';
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function divide() {
-  stringNums /= '/';
+  stringNums += '/';
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function zero() {
@@ -95,6 +95,6 @@ function nine() {
 function equals() {
  let total = eval(stringNums)
 
-  document.querySelector('#placeToPutResult').innerText = `Total: ${total}`
+  document.querySelector('#placeToPutResult').innerText = `${total}`
 }
 
