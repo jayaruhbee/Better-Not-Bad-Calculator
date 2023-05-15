@@ -42,52 +42,52 @@ function divide() {
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function zero() {
-  stringNums += '0';
+  stringNums += ' 0 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function one() {
-  stringNums += '1';
+  stringNums += ' 1 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function two() {
-  stringNums += '2';
+  stringNums += ' 2 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function three() {
-  stringNums += '3';
+  stringNums += ' 3 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function four() {
-  stringNums += '4';
+  stringNums += ' 4 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function five() {
-  stringNums += '5';
+  stringNums += ' 5 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function six() {
-  stringNums += '6';
+  stringNums += ' 6 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function seven() {
-  stringNums += '7';
+  stringNums += ' 7 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function eight() {
-  stringNums += '8';
+  stringNums += ' 8 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }
 function nine() {
-  stringNums += '9';
+  stringNums += ' 9 ';
 
   document.querySelector('#placeToPutResult').innerText = stringNums
 }

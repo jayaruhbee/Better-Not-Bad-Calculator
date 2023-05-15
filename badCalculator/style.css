@@ -4,86 +4,86 @@
   height: 570px;
   width: 570px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(152, 180, 107);
   margin: 0 auto;
+  /* centers on screen */
 }
   
   .container {
     /*BLUE CALCULATOR*/
     background-color: rgb(144, 198, 229);
-    /* calculator colour */
+    /* calculator color */
     width: 400px;
-    height: 400px;
+    height: 450px;
     display: flex;
-    align-items: normal;
     justify-content: center;
+    /* flex items centered horizontal axis */
     flex-wrap: wrap;
-    margin: 0 auto;
+    /* wrapping the buttons */
     padding: 10px;
+    /* space between border */
     border-radius: 8px;
-
-    
-    /* ^these both center the blue calculator within the outer green shell */
+    /* round them edges */
   }
   
 
   .calc-display {
       /*DISPLAY SCREEN OF CALCULATOR*/
-      width: 380px; 
+      width: 382px; 
       height: 80px; 
       display: flex;
-      align-items: flex-start;
+      align-items: flex-center;
+     /* displays the numbers in center of display screen - vertical */
       justify-content: center; 
-       /* moves the display screen to the top center of calculator container */
-      flex-direction: column;
-      margin-top: 10px;
-      /* margin between display top and calc top */
+      /* displays the numbers in center of display screen - horizontal */
+      margin-top: 7px;
+      /* margin between display top and calc top * remember the padding already on .container*/
       margin-bottom: 10px;
+      /* space between display bottom and buttons */
       box-shadow: 0px 5px rgb(110, 149, 174);
       background-color: rgb(238, 251, 230); 
-      /* colour and bottom shadow of display */
+      /* color for and bottom shadow of display */
    }  
   
 
   h1 {
-    /*BETTER CALCULATOR*/
+    /*MATHMATICAL MAGIC*/
     text-align: center;
-    color: hotpink;
+    color: rgb(88, 118, 207);
+    font-family: "Source Code Pro", monospace;
+  
   }
   
 
 .button {
     /*DA BUTTONS DUH*/
-    width: 80px; 
+    width: 85px; 
     height: 65px; 
     background-color: rgb(235, 235, 235);
-    /* colour of buttons */
+    /* color of buttons */
     color: gray;
-     /* colour of button characters */
-    /* font-weight: 500;  */
+     /* color of button characters */
     font-size: x-large;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px 5px rgb(110, 149, 174);
-    justify-content: center;
-    /* align-items: center; */
+        /* shadow only underneath buttons */
     line-height: 65px;
-    margin: 5px 9px;
-    /* shadow only underneath buttons */
+    /* center numbers buttons */
+    margin: 5px 6px;
     /* border-radius: 10px;
      --> round the edges of buttons */
     }  
 
   .button.clearing { 
-    /* Clear BUTTON COLOUR */
+    /* Clear BUTTON COLOR */
     background: rgb(250, 138, 153);
   }
  
   .button.calc {
-    /* CALCULATIONS BUTON COLOR */
+    /* CALCULATIONS BUTTON COLOR */
     background: rgb(236, 255, 129);
   }
  
